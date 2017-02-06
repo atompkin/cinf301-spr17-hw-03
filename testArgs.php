@@ -13,4 +13,5 @@ require_once "./ParseArgv.php";
 $parsed = new ParseArgv();
 $arguments = $parsed->getParsed();
 // want   $arguments = $parsed->argv;  instead
-// print is in parse method
+var_dump($arguments);
+

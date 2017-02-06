@@ -31,6 +31,6 @@ class ParseArgv
         $shortopts .= "v::";
         $longopts = array("names:","type:");
         $options = getopt($shortopts, $longopts);
-        var_dump($options);
+        return $options;
     }
 }
